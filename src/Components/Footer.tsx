@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Styles/HeaderAndFooter.css'
 import { createUseStyles } from 'react-jss';
 const useStyles = createUseStyles({

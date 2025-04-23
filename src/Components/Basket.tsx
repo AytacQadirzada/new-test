@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { createUseStyles } from 'react-jss'
 
 const useStyles = createUseStyles({
@@ -93,13 +93,6 @@ const Basket = () => {
   const handleRemove = (index: number) => {
     const updated = [...cartItems]
     updated.splice(index, 1)
-    setCartItems(updated)
-    localStorage.setItem('cart', JSON.stringify(updated))
-  }
-
-  const handleQuantityChange = (index: number, value: number) => {
-    const updated = [...cartItems]
-    updated[index].quantity = value
     setCartItems(updated)
     localStorage.setItem('cart', JSON.stringify(updated))
   }

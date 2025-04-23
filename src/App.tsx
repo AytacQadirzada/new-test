@@ -1,9 +1,9 @@
-import React,{ useState } from 'react'
+import React from 'react'
 import Layout from './Components/Layout'
 import Home from './Components/Home'
 import Basket from './Components/Basket'
 import Product from './Components/Product'
-import {Link,Routes,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 function App() {
 
   return (

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 import '../Styles/Home.css'
 import { createUseStyles } from 'react-jss'
@@ -123,8 +123,6 @@ const Home = () => {
     }
     fetchData()
   }, [])
-
-  const [selectId, setSelectId] = useState('')
 
   if (loading) {
     return (
