@@ -1,11 +1,9 @@
-import React, {useState, useEffect} from 'react'
 import logo from '../assets/logo.png'
 import shop from '../assets/shop.png'
 import { createUseStyles } from 'react-jss'
 import { useNavigate } from 'react-router-dom'
 
 
-// Stil hook-u
 const useStyles = createUseStyles({
   '@import': "url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')",
     

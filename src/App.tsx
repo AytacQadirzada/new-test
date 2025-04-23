@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from './Components/Layout'
 import Home from './Components/Home'
 import Basket from './Components/Basket'
